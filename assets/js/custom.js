@@ -41,7 +41,7 @@
 	/* ----------------------------------------------------------- */
 	/*  2. EVENT TIME COUNTER
 	/* ----------------------------------------------------------- */
-        var countDownDate = new Date("June 11, 2025 09:00:00").getTime();
+        var countDownDate = new Date("June 12, 2025 09:00:00").getTime();
         countDownDate.toLocaleString('en-US', { timeZone: 'America/New_York' })
 	$('#mu-event-counter').countdown(countDownDate).on('update.countdown', function(event) {
 	  var $this = $(this).html(event.strftime(''
